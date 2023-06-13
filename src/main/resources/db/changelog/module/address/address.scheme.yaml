@@ -1,0 +1,14 @@
+databaseChangeLog:
+
+  - changeSet:
+      id: 1
+      author: agus.suhardii@gmail.com
+
+  - include:
+      file: ddl/init address.sql
+      relativeToChangelogFile: true
+
+  - include:
+      file: dml/init value address.sql
+      relativeToChangelogFile: true
+
